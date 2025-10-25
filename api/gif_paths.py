@@ -1,7 +1,6 @@
-import os 
-
-DIRNAME = os.path.dirname(os.path.abspath(__file__))
+from .load_gif import load_gif
 
 gif_paths = {
-  "teto": os.path.join(DIRNAME, "animations", "teto.gif")
+  "teto": load_gif("teto.gif"),
+  "palmeiras": load_gif("palmeiras.gif"),
 }
