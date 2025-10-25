@@ -5,7 +5,7 @@ from .resources.generate_ascii import ascii_generator
 from .routes.main import main 
 
 def create_app():
-  app = Flask(__name__)
+  app = Flask(__name__, static_folder="static", template_folder="static")
   limiter = Limiter(
     key_func=get_remote_address,
     app=app,
