@@ -1,3 +1,4 @@
 flask
 dotenv
 pillow
+Flask-Limiter
