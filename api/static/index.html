@@ -52,9 +52,13 @@
       <div>
         <div class="bg-neutral-700 h-1 w-[100vh] mt-2 mb-4"></div>
       </div>
-      <img src="./example/teto_example.gif" alt="" class="w-50 h-30" />
+      <img
+        src="{{ url_for('static', filename='assets/teto_example.gif') }}"
+        alt=""
+        class="w-50 h-30"
+      />
     </div>
-    
+
     <div class="ml-80 mt-12">
       <h1 class="text-white font-bold text-3xl mb-3">Available routes</h1>
       <span class="text-neutral-400"
@@ -76,9 +80,7 @@
         <div class="bg-neutral-700 h-1 w-[100vh] mt-2 mb-4"></div>
       </div>
       <div class="">
-        <h3 class="text-center text-neutral-400">
-          Developed by Kevin
-        </h3>
+        <h3 class="text-center text-neutral-400">Developed by Kevin</h3>
       </div>
     </footer>
   </body>
