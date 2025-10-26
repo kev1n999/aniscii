@@ -23,7 +23,7 @@ curl https://aniscii.onrender.com/teto
 
 ## Returns
 
-<img src="api/static/assets/teto_example.gif" alt="Kasane Teto ASCII Example">
+<img src="https://raw.githubusercontent.com/kev1n999/aniscii/main/api/public/teto_example.gif" alt="Kasane Teto ASCII Example">
 
 ## Available Routes
 
