@@ -13,7 +13,7 @@ def home():
 
 @main.route("/teto", methods=["GET"])
 def teto():
-  return teto
+  return teto_ascii()
 
 @main.route("/palmeiras", methods=["GET"])
 def palmeiras():
