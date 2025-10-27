@@ -9,14 +9,14 @@
 You can make a request to any animation route directly from your terminal using `curl`.
 
 ```bash
-curl https://aniscii.onrender.com/route
+curl https://aniscii.vercel.app/route
 ```
 
 ### Example — Kasane Teto Animation
 This example returns an ASCII art animation of **Kasane Teto**:
 
 ```bash
-curl https://aniscii.onrender.com/teto
+curl https://aniscii.vercel.app/teto
 ```
 
 ---
@@ -29,7 +29,7 @@ curl https://aniscii.onrender.com/teto
 
 To view all available animation routes, visit the documentation page:
 
-**[https://aniscii.onrender.com](https://aniscii.onrender.com)**
+**[aniscii.vercel.app](https://aniscii.vercel.app/)**
 
 ---
 
