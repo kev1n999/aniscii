@@ -4,6 +4,7 @@ from ..controllers.palmeiras import palmeiras_ascii
 from ..controllers.batman import batman_ascii
 from ..controllers.dev import dev_ascii
 from ..controllers.musk import musk_ascii 
+from ..controllers.routes import get_routes 
 
 main = Blueprint("main", __name__)
 
@@ -11,6 +12,10 @@ main = Blueprint("main", __name__)
 def home():
   return render_template("index.html")
 
+@main.route("/routes", methods=["GET"])
+def routes():
+  return get_routes()
+  
 @main.route("/teto", methods=["GET"])
 def teto():
   return teto_ascii()

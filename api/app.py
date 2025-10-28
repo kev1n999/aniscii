@@ -9,8 +9,9 @@ def create_app():
   limiter = Limiter(
     key_func=get_remote_address,
     app=app,
-    default_limits=["10 per minute"]
+    default_limits=["10 per minute"],
   )
+  
   app.register_blueprint(main)
 
   return app 
